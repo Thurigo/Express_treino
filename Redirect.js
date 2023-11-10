@@ -11,6 +11,9 @@ app.get('/tamojunto', (req, res) => {
     res.send('http');
 });
 
+app.get('/Back', (req, res) => {
+    res.redirect('back')
+});
 
 
 
